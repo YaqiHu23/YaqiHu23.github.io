@@ -24,9 +24,9 @@ author:
   avatar           : "profile.png"
   name             : "Yaqi Hu"
   pronouns         : "He/His"# example: "she/her"  
-  bio              : "PhD Student at University of California, Irvine"
+  bio              : "First Year PhD Student at UCI"
   location         : "Irvine, CA"
-  employer         : "PhD student at University of California, Irvine"
+  employer         : "University of California, Irvine"
   uri              : # URL
   email            : "yaqi.hu@uci.edu" 
 
@@ -75,8 +75,8 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
+  # books:
+    # title: 'Books'
   manuscripts:
     title: 'Journal Articles'    
   conferences:
