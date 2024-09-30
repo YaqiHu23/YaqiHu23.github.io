@@ -25,3 +25,10 @@ University of Southern California, CA, United States
 
 **09/2018 - 06/2022**  
 Macau University of Science and Technology, Macau SAR, China
+
+Research Projects
+======
+
+
+Important Activities
+======
