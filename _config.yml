@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Yaqi's Profile"
+title                    : ""
 title_separator          : "-"
 name                     : &name "Yaqi's Profile"
 description              : &description "personal description"
@@ -23,7 +23,7 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Yaqi Hu"
-  pronouns         : "He/His"# example: "she/her"  
+  pronouns         : "He/His" # example: "she/her"  
   bio              : "First Year PhD Student at UCI"
   location         : "Irvine, CA"
   employer         : "University of California, Irvine"
