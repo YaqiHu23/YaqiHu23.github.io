@@ -12,9 +12,9 @@ I'm a first-year PhD student at the University of California, Irvine. My researc
 On this website, I present my scientific research topics and things that I find interesting, as well as some reviews or paper reading results, mostly related to bioinformatics. (Also, some memes I liked) 
 
 
-<div style="display: flex; flex-direction: row; justify-content: space-between;">
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
 
-<div style="flex: 1; margin-right: 20px;">
+<div>
 
 ### Interests
 - Multiphysics simulations
@@ -25,14 +25,14 @@ On this website, I present my scientific research topics and things that I find 
 
 </div>
 
-<div style="flex: 1;">
+<div>
 
 ### Education
-- 🧑‍🎓 **Dr.-Ing. in Computational Engineering Science, 2017**  
+- 👨‍🎓 **Dr.-Ing. in Computational Engineering Science, 2017**  
   RWTH Aachen University, Germany
-- 🧑‍🎓 **Dipl.-Ing. in Aerospace Engineering, 2011**  
+- 👨‍🎓 **Dipl.-Ing. in Aerospace Engineering, 2011**  
   University of Stuttgart, Germany
-- 🧑‍🎓 **MS in Aerospace Engineering, 2010**  
+- 👨‍🎓 **MS in Aerospace Engineering, 2010**  
   Georgia Institute of Technology, USA
 
 </div>
