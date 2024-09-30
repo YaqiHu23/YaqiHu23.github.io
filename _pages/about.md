@@ -17,27 +17,26 @@ On this website, I present my scientific research topics and things that I find 
 
 <div style="flex: 1; margin-right: 20px;">
 
-Interests
-======
-- Multiphysics simulations
-- Adaptive high-order schemes
-- Hierarchical mesh methods
-- High-performance computing
-- Applications in fluid mechanics, aeroacoustics, and astrophysics
+### Interests
+
+- Multiphysics simulations \\
+- Adaptive high-order schemes \\
+- Hierarchical mesh methods \\
+- High-performance computing \\
+- Applications in fluid mechanics, aeroacoustics, and astrophysics \\
 
 </div>
 
 <div style="flex: 1;">
 
-Education
-======
+### Education
 
-- 🧑‍🎓 **Dr.-Ing. in Computational Engineering Science, 2017**  
-  RWTH Aachen University, Germany
-- 🧑‍🎓 **Dipl.-Ing. in Aerospace Engineering, 2011**  
-  University of Stuttgart, Germany
-- 🧑‍🎓 **MS in Aerospace Engineering, 2010**  
-  Georgia Institute of Technology, USA
+- 🧑‍🎓 **Dr.-Ing. in Computational Engineering Science, 2017** \\
+  RWTH Aachen University, Germany \\
+- 🧑‍🎓 **Dipl.-Ing. in Aerospace Engineering, 2011** \\
+  University of Stuttgart, Germany \\
+- 🧑‍🎓 **MS in Aerospace Engineering, 2010** \\
+  Georgia Institute of Technology, USA \\
 
 </div>
 
