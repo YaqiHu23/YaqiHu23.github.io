@@ -13,11 +13,11 @@ On this website, I present my scientific research topics and things that I find 
 
 Education
 ======
-**Currently Purseing**  
+**Currently Pursuing**  
 University of California, Irvine, CA, United States
 
-**Master in Computer Science, 01/2023 - 05/2024**  
+**Master in Computer Science, Jan.2023 - May2024**  
 University of Southern California, CA, United States
 
-**BS in Computer Technology and Application, 09/2018 - 06/2022**  
+**BSc in Computer Technology and Its Application, Sep.2018 - June2022**  
 Macau University of Science and Technology, Macau SAR, China
