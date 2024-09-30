@@ -11,32 +11,29 @@ I'm a first-year PhD student at the University of California, Irvine. My researc
 
 On this website, I present my scientific research topics and things that I find interesting, as well as some reviews or paper reading results, mostly related to bioinformatics. (Also, some memes I liked) 
 
------------------------------
 
 <div style="display: flex; flex-direction: row; justify-content: space-between;">
 
 <div style="flex: 1; margin-right: 20px;">
 
 ### Interests
-
-- Multiphysics simulations \\
-- Adaptive high-order schemes \\
-- Hierarchical mesh methods \\
-- High-performance computing \\
-- Applications in fluid mechanics, aeroacoustics, and astrophysics \\
+- Multiphysics simulations
+- Adaptive high-order schemes
+- Hierarchical mesh methods
+- High-performance computing
+- Applications in fluid mechanics, aeroacoustics, and astrophysics
 
 </div>
 
 <div style="flex: 1;">
 
 ### Education
-
-- 🧑‍🎓 **Dr.-Ing. in Computational Engineering Science, 2017** \\
-  RWTH Aachen University, Germany \\
-- 🧑‍🎓 **Dipl.-Ing. in Aerospace Engineering, 2011** \\
-  University of Stuttgart, Germany \\
-- 🧑‍🎓 **MS in Aerospace Engineering, 2010** \\
-  Georgia Institute of Technology, USA \\
+- 🧑‍🎓 **Dr.-Ing. in Computational Engineering Science, 2017**  
+  RWTH Aachen University, Germany
+- 🧑‍🎓 **Dipl.-Ing. in Aerospace Engineering, 2011**  
+  University of Stuttgart, Germany
+- 🧑‍🎓 **MS in Aerospace Engineering, 2010**  
+  Georgia Institute of Technology, USA
 
 </div>
 
