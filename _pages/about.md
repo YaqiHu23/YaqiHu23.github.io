@@ -12,9 +12,9 @@ I'm a first-year PhD student at the University of California, Irvine. My researc
 On this website, I present my scientific research topics and things that I find interesting, as well as some reviews or paper reading results, mostly related to bioinformatics. (Also, some memes I liked) 
 
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
-
-<div>
+<table>
+  <tr>
+    <td>
 
 ### Interests
 - Multiphysics simulations
@@ -23,9 +23,8 @@ On this website, I present my scientific research topics and things that I find 
 - High-performance computing
 - Applications in fluid mechanics, aeroacoustics, and astrophysics
 
-</div>
-
-<div>
+    </td>
+    <td>
 
 ### Education
 - 👨‍🎓 **Dr.-Ing. in Computational Engineering Science, 2017**  
@@ -35,6 +34,6 @@ On this website, I present my scientific research topics and things that I find 
 - 👨‍🎓 **MS in Aerospace Engineering, 2010**  
   Georgia Institute of Technology, USA
 
-</div>
-
-</div>
+    </td>
+  </tr>
+</table>
