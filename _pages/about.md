@@ -16,8 +16,10 @@ Education
 **Currently Pursuing**  
 University of California, Irvine, CA, United States
 
-**Master in Computer Science, 01/2023 - 05/2024**  
+**Master in Computer Science**
+**01/2023 - 05/2024**  
 University of Southern California, CA, United States
 
-**BSc in Computer Technology and Its Application, \\ 09/2018 - 06/2022**  
+**BSc in Computer Technology and Its Application**
+**09/2018 - 06/2022**  
 Macau University of Science and Technology, Macau SAR, China
