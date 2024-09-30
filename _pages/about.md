@@ -11,29 +11,13 @@ I'm a first-year PhD student at the University of California, Irvine. My researc
 
 On this website, I present my scientific research topics and things that I find interesting, as well as some reviews or paper reading results, mostly related to bioinformatics. (Also, some memes I liked) 
 
+Education
+======
+**Currently Purseing**  
+University of California, Irvine, CA, United States
 
-<table>
-  <tr>
-    <td>
+**Master in Computer Science, 01/2023 - 05/2024**  
+University of Southern California, CA, United States
 
-### Interests
-- Multiphysics simulations
-- Adaptive high-order schemes
-- Hierarchical mesh methods
-- High-performance computing
-- Applications in fluid mechanics, aeroacoustics, and astrophysics
-
-    </td>
-    <td>
-
-### Education
-- 👨‍🎓 **Dr.-Ing. in Computational Engineering Science, 2017**  
-  RWTH Aachen University, Germany
-- 👨‍🎓 **Dipl.-Ing. in Aerospace Engineering, 2011**  
-  University of Stuttgart, Germany
-- 👨‍🎓 **MS in Aerospace Engineering, 2010**  
-  Georgia Institute of Technology, USA
-
-    </td>
-  </tr>
-</table>
+**BS in Computer Technology and Application, 09/2018 - 06/2022**  
+Macau University of Science and Technology, Macau SAR, China
