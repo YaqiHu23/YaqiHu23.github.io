@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Personal Overview"
+title: "Yaqi's Personal Site"
 author_profile: true
 redirect_from: 
   - /about/
