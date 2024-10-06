@@ -30,3 +30,4 @@ Research Projects
 
 Important Activities
 ======
+Plan to attend the ACML 2024 Conference and present the paper: "Understanding Transcriptional Regulatory Redundancy by Learnable Global Subset Perturbations"
