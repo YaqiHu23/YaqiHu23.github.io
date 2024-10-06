@@ -17,4 +17,4 @@ GPU: TBD, possibly 50 series, like 5090 \\
 Memory: DDR5 32GB around 6000hz \\
 SSD: 2TB any brand \\
 CPU Fan Cooling: 240 watercooling \\
-Will buy 12mm fans use in the case. \\
+Will buy 12mm fans use in the case.
