@@ -17,7 +17,7 @@ New 15th Series has a new series name: Core Ultra second series, not ultra indee
 List of CPUs: \\
 Ultra 9 285K -- $589 \\
 Ultra 7 265K/KF -- $379 \\
-Ultra 5 245K/KF -- $294 \\
+Ultra 5 245K/KF -- $294
 
 I should say new Core Ultra 2th does not have too much attraction for me. Maybe Intel 12th is a better option? Not sure......
 
