@@ -8,7 +8,18 @@ tags:
   - category2
 ---
 
-Waiting for new Nvidia 50 Series and Intel 15th. From the official post, they will be announced Spring 2025.
+Updated: 2024-10-11 \\
+Waiting for new Nvidia 50 Series. From the official post, they will be announced Spring 2025.
+
+Intel 15th Series CPUs are published, however, except the power consumption becomes lower, seems nothing happened. 😨 \\
+New 15th Series has a new series name: Core Ultra second series, not ultra indeed but a cool name. \\
+(Ultra series 1 is fully laptop, no PC provided) \\
+List of CPUs: \\
+Ultra 9 285K -- $589 \\
+Ultra 7 265K/KF -- $379 \\
+Ultra 5 245K/KF -- $294 \\
+
+I should say new Core Ultra 2th does not have too much attraction for me. Maybe Intel 12th is a better option? Not sure......
 
 Currently DIY plan: \\
 Case: Mechanical Master C34 Plus \\
