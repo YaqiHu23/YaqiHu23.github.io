@@ -26,7 +26,7 @@ Macau University of Science and Technology, Macau SAR, China
 
 Research Projects
 ======
-
+Currently doing lots of readings for spatial transcriptomics, hope I could figure it out soon.
 
 Important Activities
 ======
