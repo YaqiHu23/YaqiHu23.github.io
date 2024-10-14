@@ -22,10 +22,11 @@ Ultra 5 245K/KF -- $294
 I should say new Core Ultra 2th does not have too much attraction for me. Maybe Intel 12th is a better option? Not sure......
 
 Currently DIY plan: \\
-Case: Mechanical Master C34 Plus \\
-CPU: TBD, possibly 15th series. (Or I should say, Ultra 2th) \\
+Case: Mechanical Master C34 Plus ---- Price: 189.00\\
+A micro center old bundle: i9 12900K + Asus Z790-V Prime AX + 48 GB Memory ---- Price: $409.99\\
+(After I receive the sad information from new Ultra CPUs)
 GPU: TBD, possibly 50 series, like 5090 \\
-Memory: DDR5 32GB around 6000hz \\
-SSD: 2TB any brand \\
-CPU Fan Cooling: 240 watercooling \\
+SSD: Crucial 2TB (5000 read) \\
+CPU Fan Cooling: 240 watercooling ---- possibly from my used\\
 Will buy 12mm fans use in the case.
+
