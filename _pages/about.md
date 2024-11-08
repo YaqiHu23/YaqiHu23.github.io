@@ -13,7 +13,7 @@ On this website, I present my scientific research topics and things that I find 
 
 Education
 ======
-**Currently Pursuing**  
+**PhD, Currently Pursuing**  
 University of California, Irvine, CA, United States
 
 **Master in Computer Science** \\
