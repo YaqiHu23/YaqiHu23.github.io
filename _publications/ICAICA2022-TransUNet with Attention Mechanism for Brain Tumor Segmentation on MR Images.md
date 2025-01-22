@@ -2,7 +2,7 @@
 title: "TransUNet with Attention Mechanism for Brain Tumor Segmentation on MR Images"
 collection: publications
 category: conferences
-permalink: /publication/TransUNet with Attention Mechanism for Brain Tumor Segmentation on MR Images
+permalink: /publication/2022/Brain-paper
 # excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2022-06-24
 venue: 'ICAICA'

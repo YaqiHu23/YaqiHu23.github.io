@@ -26,8 +26,8 @@ Macau University of Science and Technology, Macau SAR, China
 
 Research Projects
 ======
-Currently doing lots of readings for spatial transcriptomics, hope I could figure it out soon.
+I have multiple projects working at the same time now, hopefully we will get the result soon.
 
 Important Activities
 ======
-Plan to attend the ACML 2024 Conference and present the paper: "Understanding Transcriptional Regulatory Redundancy by Learnable Global Subset Perturbations"
+2024-12-05 Attended the ACML 2024 Conference and present the paper: "Understanding Transcriptional Regulatory Redundancy by Learnable Global Subset Perturbations"
