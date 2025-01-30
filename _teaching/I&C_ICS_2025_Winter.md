@@ -1,5 +1,5 @@
 ---
-title: " Teaching Assistant - I&C ICS Program in C/C++"
+title: " Teaching Assistant - I&C ICS 45 Program in C/C++"
 collection: teaching
 type: "Undergrad course"
 permalink: /teaching/UCI-2025-winter
