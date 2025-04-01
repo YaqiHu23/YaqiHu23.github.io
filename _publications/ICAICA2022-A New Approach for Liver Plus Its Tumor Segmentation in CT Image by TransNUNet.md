@@ -10,4 +10,9 @@ venue: 'ICAICA'
 paperurl: 'http://yaqi.luo-hua.com/files/A New Approach for Liver Plus Its Tumor Segmentation in CT Image by TransNUNet.pdf'
 # citation: 'Y. Hu, X. Yang and X. Tian, "A New Approach for Liver Plus Its Tumor Segmentation in CT Image by TransNUNet," 2022 IEEE International Conference on Artificial Intelligence and Computer Applications (ICAICA), Dalian, China, 2022, pp. 603-608, doi: 10.1109/ICAICA54878.2022.9844578.'
 ---
-citation: 'Y. Hu, X. Yang and X. Tian, "A New Approach for Liver Plus Its Tumor Segmentation in CT Image by TransNUNet," 2022 IEEE International Conference on Artificial Intelligence and Computer Applications (ICAICA), Dalian, China, 2022, pp. 603-608, doi: 10.1109/ICAICA54878.2022.9844578.
+This paper proposes **TransNUNet**, a Transformer-augmented U-Net architecture tailored for precise segmentation of both liver and liver tumors in CT images.
+
+### Key Contributions:
+- Unified pipeline for simultaneous liver + tumor segmentation  
+- Hybrid architecture with Transformer encoder and CNN decoder  
+- Extensive evaluation showing state-of-the-art performance  
