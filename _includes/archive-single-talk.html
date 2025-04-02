@@ -38,5 +38,13 @@
     {% if post.date %}<p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %}
     {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{post.type}}, {{ post.venue }},  {{post.location}} {% endif %}
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
+    {% if post.paperurl or post.slidesurl %}<p class="archive__item-excerpt" style="font-size: smaller">
+    {% if post.paperurl %}<a href="{{ post.paperurl }}" target="_blank">Download Paper</a>
+    {% endif %}
+    {% if post.paperurl and post.slidesurl %} | {% endif %}
+    {% if post.slidesurl %}<a href="{{ post.slidesurl }}" target="_blank">Download Slides</a>
+    {% endif %}
+  </p>
+{% endif %}
   </article>
 </div>
