@@ -24,11 +24,10 @@ University of Southern California, CA, United States
 **09/2018 - 06/2022**  
 Macau University of Science and Technology, Macau SAR, China
 
-Events and Hours
-======
-<iframe src="https://calendar.google.com/calendar/embed?src=yaqihu.personal%40gmail.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-
-
 Important Activities
 ======
 2024-12-05 Attended the ACML 2024 Conference and present the paper: "Understanding Transcriptional Regulatory Redundancy by Learnable Global Subset Perturbations"
+
+Events and Hours
+======
+<iframe src="https://calendar.google.com/calendar/embed?src=yaqihu.personal%40gmail.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
