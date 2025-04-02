@@ -25,11 +25,12 @@ University of Southern California, CA, United States
 Macau University of Science and Technology, Macau SAR, China
 
 Working Hours
+======
 <iframe src="https://calendar.google.com/calendar/embed?src=yaqihu.personal%40gmail.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
-[comment]: # (Research Projects
-======
-I have multiple projects working at the same time now, hopefully we will get the result soon.)
+# Research Projects
+# ======
+# I have multiple projects working at the same time now, hopefully we will get the result soon.
 
 Important Activities
 ======
