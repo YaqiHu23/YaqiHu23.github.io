@@ -3,6 +3,7 @@ title: "A New Approach for Liver Plus Its Tumor Segmentation in CT Image by Tran
 collection: publications
 category: conferences
 permalink: /publication/2022/Liver-paper
+authors: "<strong>Y. Hu</strong>, X. Yang, X. Tian"
 # excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
 date: 2022-06-24
 venue: 'ICAICA'

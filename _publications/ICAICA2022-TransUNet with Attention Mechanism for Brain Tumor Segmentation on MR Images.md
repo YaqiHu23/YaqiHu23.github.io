@@ -3,6 +3,7 @@ title: "TransUNet with Attention Mechanism for Brain Tumor Segmentation on MR Im
 collection: publications
 category: conferences
 permalink: /publication/2022/Brain-paper
+authors: "E. Wang, <strong>Y. Hu</strong>, X. Yang, X. Tian"
 # excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2022-06-24
 venue: 'ICAICA'
