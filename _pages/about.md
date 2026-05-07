@@ -20,7 +20,7 @@ I'm a second-year PhD student at the University of California, Irvine. My resear
 
 * **[03/2026]** Served as a **Hackathon Judge** at *IrvineHacks*, evaluating student projects in AI, machine learning, and software engineering.
 
-* **[12/2024]** 🎉 Attended the *ACML 2024* Conference and presented the paper: *"Understanding Transcriptional Regulatory Redundancy by Learnable Global Subset Perturbations"*.
+* **[12/2024]** Attended the *ACML 2024* Conference and presented the paper: *"Understanding Transcriptional Regulatory Redundancy by Learnable Global Subset Perturbations"*.
 
 ## Education
 
