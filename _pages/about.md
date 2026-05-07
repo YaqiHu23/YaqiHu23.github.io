@@ -18,6 +18,8 @@ I'm a second-year PhD student at the University of California, Irvine. My resear
 
 ## Recent News
 
+* **[05/2026]** Serving as a judge for the *2026 UC Irvine Undergraduate Research Symposium*, reviewing audition videos, oral presentations, and poster presentations in support of undergraduate research at UCI.
+
 * **[03/2026]** Served as a **Hackathon Judge** at *IrvineHacks*, evaluating student projects in AI, machine learning, and software engineering.
 
 * **[12/2024]** Attended the *ACML 2024* Conference and presented the paper: *"Understanding Transcriptional Regulatory Redundancy by Learnable Global Subset Perturbations"*.
