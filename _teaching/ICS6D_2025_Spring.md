@@ -1,9 +1,9 @@
 ---
-title: " Teaching Assistant - ICS 6D Discrete Mathematics for Computer Science"
+title: "Teaching Assistant - ICS 6D Discrete Mathematics for Computer Science (Spring 2025)"
 collection: teaching
 type: "Undergrad course"
 permalink: /teaching/UCI-2025-spring
-venue: "University of California, Irvine."
+venue: "University of California, Irvine"
 date: 2025-03-31
 location: "Irvine, California, United States"
 ---

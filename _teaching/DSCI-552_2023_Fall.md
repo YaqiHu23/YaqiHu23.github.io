@@ -1,5 +1,5 @@
 ---
-title: " Course Producer - DSCI-552 Machine Learning For Data Science"
+title: "Course Producer - DSCI-552 Machine Learning For Data Science (Fall 2023)"
 collection: teaching
 type: "Graduate course"
 permalink: /teaching/USC-2023-Fall
