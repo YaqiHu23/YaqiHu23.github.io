@@ -20,15 +20,11 @@ I'm a third-year PhD student at the University of California, Irvine. My researc
 
 * **[09/2026]** Our paper *"sMMC-22M: A Context-Aware Dataset and Benchmark for Single-Cell Spatial Transcriptomics"* has been accepted to *NeurIPS 2026*!
 
-* **[09/2026]** Serving as a Teaching Assistant for *ICS 6D: Discrete Mathematics for Computer Science* (Fall 2026) with Prof. Jing Zhang.
-
 * **[08/2026]** Our paper *"MUGO: Differentiable Combinatorial Optimization for Causal Variant Discovery in the Non-coding Genome"* was published at *KDD 2026*.
 
 * **[08/2026]** Our paper *"STMoE: Multi-Scale Mixture-of-Experts for Single-Cell Gene Expression Prediction from Histology"* has been accepted to *CIKM 2026*.
 
 * **[05/2026]** Served as a judge for the *2026 UC Irvine Undergraduate Research Symposium*, reviewing audition videos, oral presentations, and poster presentations in support of undergraduate research at UCI.
-
-* **[03/2026]** Served as a Teaching Assistant for *ICS 6D: Discrete Mathematics for Computer Science* (Spring 2026).
 
 * **[03/2026]** Served as a Hackathon Judge at *IrvineHacks*, evaluating student projects in AI, machine learning, and software engineering.
 

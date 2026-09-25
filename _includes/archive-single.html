@@ -25,6 +25,9 @@
       {% if post.collection == 'teaching' or post.collection == 'publications' or post.url contains 'publication' or
       post.id contains 'publication' %}
       {{ title }}
+      {% if post.collection == 'publications' and post.pageurl and post.pageurl != "" %}
+      <a href="{{ post.pageurl }}" target="_blank" rel="noopener" title="View paper page" aria-label="View paper page" style="font-size: 0.7em; margin-left: 0.25em; text-decoration: none;"><i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+      {% endif %}
       {% elsif post.link %}
       <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i
           class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>

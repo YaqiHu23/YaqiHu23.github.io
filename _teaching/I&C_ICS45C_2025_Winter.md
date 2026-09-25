@@ -7,3 +7,4 @@ venue: "University of California, Irvine"
 date: 2025-01-06
 location: "Irvine, California, United States"
 ---
+Instructor: Prof. Raymond O. Klefstad

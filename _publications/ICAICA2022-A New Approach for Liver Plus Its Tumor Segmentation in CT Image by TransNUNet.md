@@ -8,5 +8,6 @@ authors: "<strong>Y. Hu</strong>, X. Yang, X. Tian"
 date: 2022-06-24
 venue: 'ICAICA'
 paperurl: '/files/A New Approach for Liver Plus Its Tumor Segmentation in CT Image by TransNUNet.pdf'
+pageurl: 'https://ieeexplore.ieee.org/document/9844578'
 # citation: 'Y. Hu, X. Yang and X. Tian, "A New Approach for Liver Plus Its Tumor Segmentation in CT Image by TransNUNet," 2022 IEEE International Conference on Artificial Intelligence and Computer Applications (ICAICA), Dalian, China, 2022, pp. 603-608, doi: 10.1109/ICAICA54878.2022.9844578.'
 ---

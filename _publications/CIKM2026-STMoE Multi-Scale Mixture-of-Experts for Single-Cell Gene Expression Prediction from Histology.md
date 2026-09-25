@@ -7,4 +7,5 @@ permalink: /publication/2026/STMoE-paper
 date: 2026-08-07
 venue: 'CIKM'
 # paperurl: ''   # TODO: add PDF / arXiv link
+pageurl: ''   # TODO: add paper page link (icon appears once filled)
 ---

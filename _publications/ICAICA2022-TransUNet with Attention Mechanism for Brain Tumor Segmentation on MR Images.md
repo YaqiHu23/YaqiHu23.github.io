@@ -8,5 +8,6 @@ authors: "E. Wang, <strong>Y. Hu</strong>, X. Yang, X. Tian"
 date: 2022-06-24
 venue: 'ICAICA'
 paperurl: '/files/TransUNet with Attention Mechanism for Brain Tumor Segmentation on MR Images.pdf'
+pageurl: 'https://ieeexplore.ieee.org/document/9844551'
 # citation: 'E. Wang, Y. Hu, X. Yang and X. Tian, "TransUNet with Attention Mechanism for Brain Tumor Segmentation on MR Images," 2022 IEEE International Conference on Artificial Intelligence and Computer Applications (ICAICA), Dalian, China, 2022, pp. 573-577, doi: 10.1109/ICAICA54878.2022.9844551.'
 ---
