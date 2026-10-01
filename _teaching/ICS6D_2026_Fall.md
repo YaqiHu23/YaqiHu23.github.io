@@ -6,5 +6,10 @@ permalink: /teaching/UCI-2026-fall
 venue: "University of California, Irvine"
 date: 2026-09-24
 location: "Irvine, California, United States"
+# Homepage (Teaching)
+course: "ICS 6D Discrete Mathematics for CS"
+role: "Teaching Assistant"
+school: "UC Irvine"
+term: "Fall 2026"
 ---
 Instructor: Prof. Jing Zhang

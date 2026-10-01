@@ -1,41 +1,25 @@
 ---
+layout: home
 permalink: /
-title: "Yaqi's Personal Site"
-author_profile: true
-redirect_from: 
+description: "Yaqi Hu is a Ph.D. student at UC Irvine working on machine learning for pathology images and spatial omics."
+redirect_from:
   - /about/
   - /about.html
+
+# Homepage content
+# News:                  _data/news.yml
+# Selected publications: add `selected: true` to a file in _publications/
+# Talks & Activities:    newest files in _talks/
+# Teaching:              files in _teaching/, grouped by `course`
+eyebrow: "Third-year Ph.D. student · University of California, Irvine"
+lead: "I build machine learning methods for pathology images and spatial omics. Recent work predicts single-cell gene expression from histology and searches the non-coding genome for causal variants."
+advisor: "Advised by Prof. Jing Zhang"
+status: "Open to summer research internships"
+education:
+  - degree: "Ph.D., University of California, Irvine"
+    years: "In progress"
+  - degree: "M.S. Computer Science, University of Southern California"
+    years: "2023 – 2024"
+  - degree: "B.Sc. Computer Technology and Its Application, Macau University of Science and Technology"
+    years: "2018 – 2022"
 ---
-
-I'm a third-year PhD student at the University of California, Irvine. My research focuses on computational methods for bioinformatics, particularly in pathology image and spatial transcriptomics data analysis. My research interests include computational biology, bioinformatics, machine learning and deep learning. I am also actively looking for internship opportunities in the summer, please email me if there are any opportunities, and also feel free to reach out to me for cooperation on projects or if you have any questions.
-
-
-## Research Interests
-
-* **Pathology Image Analysis**
-* **Spatial Transcriptomics and Multi-omics Data Analysis**
-* **Machine Learning and Deep Learning**
-
-## Recent News
-
-* **[09/2026]** Our paper **"sMMC-22M: A Context-Aware Dataset and Benchmark for Single-Cell Spatial Transcriptomics"** has been accepted to **NeurIPS 2026**!
-
-* **[08/2026]** Our paper **"MUGO: Differentiable Combinatorial Optimization for Causal Variant Discovery in the Non-coding Genome"** was published at **KDD 2026**.
-
-* **[08/2026]** Our paper **"STMoE: Multi-Scale Mixture-of-Experts for Single-Cell Gene Expression Prediction from Histology"** has been accepted to **CIKM 2026**.
-
-* **[05/2026]** Served as a judge for the **2026 UC Irvine Undergraduate Research Symposium**, reviewing audition videos, oral presentations, and poster presentations in support of undergraduate research at UCI.
-
-* **[03/2026]** Served as a Hackathon Judge at **IrvineHacks**, evaluating student projects in AI, machine learning, and software engineering.
-
-* **[12/2024]** Attended the **ACML 2024** Conference and presented the paper: **"Understanding Transcriptional Regulatory Redundancy by Learnable Global Subset Perturbations"**.
-
-## Education
-
-* **PhD Student** (Currently Pursuing)  
-  *University of California, Irvine, CA, United States*
-* **Master in Computer Science** (01/2023 - 05/2024)  
-  *University of Southern California, CA, United States*
-* **BSc in Computer Technology and Its Application** (09/2018 - 06/2022)  
-  *Macau University of Science and Technology, Macau SAR, China*
-

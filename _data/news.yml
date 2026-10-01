@@ -1,0 +1,35 @@
+# Homepage "News" section, newest first.
+#   date:  only the month and year are shown (use the 1st of the month)
+#   label: short tag in front of the text; use the venue for papers
+#   kind:  paper, talk or judge ("judge" gets a grey tag)
+#   text:  HTML is allowed; wrap paper titles in <cite></cite>
+
+- date: 2026-09-01
+  label: "NeurIPS 2026"
+  kind: paper
+  text: '<cite>sMMC-22M: A Context-Aware Dataset and Benchmark for Single-Cell Spatial Transcriptomics</cite> was accepted to the main track.'
+
+- date: 2026-08-01
+  label: "KDD 2026"
+  kind: paper
+  text: '<cite>MUGO: Differentiable Combinatorial Optimization for Causal Variant Discovery in the Non-coding Genome</cite> was published in the KDD 2026 proceedings.'
+
+- date: 2026-08-01
+  label: "CIKM 2026"
+  kind: paper
+  text: '<cite>STMoE: Multi-Scale Mixture-of-Experts for Single-Cell Gene Expression Prediction from Histology</cite> was accepted.'
+
+- date: 2026-05-01
+  label: "Judge"
+  kind: judge
+  text: 'Judged oral and poster presentations at the 2026 UC Irvine Undergraduate Research Symposium.'
+
+- date: 2026-03-01
+  label: "Judge"
+  kind: judge
+  text: 'Judged student projects in AI, machine learning and software engineering at IrvineHacks.'
+
+- date: 2024-12-01
+  label: "ACML 2024"
+  kind: talk
+  text: 'Presented our lab’s paper <cite>Understanding Transcriptional Regulatory Redundancy by Learnable Global Subset Perturbations</cite> in Hanoi. <span class="award">Best Student Paper Award.</span>'

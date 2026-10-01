@@ -1,0 +1,147 @@
+---
+---
+{% comment %}
+  Homepage layout. Content comes from:
+    _pages/about.md   eyebrow, lead, advisor, status, education
+    _data/news.yml    News
+    _publications/    files with `selected: true` (image, tldr, note, codeurl, pageurl, bibtex)
+    _talks/           newest items (label, kind, headline, summary)
+    _teaching/        grouped by `course` (role, school, term)
+{% endcomment %}
+{% include base_path %}
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% include seo.html %}
+  <link rel="icon" href="{{ base_path }}/images/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400..700&family=Geist+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="{{ base_path }}/assets/css/home.css">
+</head>
+<body>
+
+<header class="bar">
+  <div class="bar-inner">
+    <a class="wordmark" href="{{ base_path }}/">{{ site.author.name }}</a>
+    <nav class="nav" aria-label="Main">
+      <a class="anchor" href="#news">News</a>
+      {% for link in site.data.navigation.main %}
+        {% if link.url contains 'http' %}{% assign href = link.url %}{% else %}{% assign href = link.url | prepend: base_path %}{% endif %}
+        <a href="{{ href }}">{% if link.short %}<span class="long">{{ link.title }}</span><span class="short">{{ link.short }}</span>{% else %}{{ link.title }}{% endif %}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="hero" aria-label="Introduction">
+    <div class="hero-text">
+      {% if page.eyebrow %}<p class="eyebrow">{{ page.eyebrow }}</p>{% endif %}
+      <h1>{{ site.author.name }}</h1>
+      {% if page.lead %}<p class="lead">{{ page.lead }}</p>{% endif %}
+      {% if page.advisor %}<p class="advisor">{{ page.advisor }}</p>{% endif %}
+      <div class="links">
+        {% if site.author.email %}<a class="btn primary" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>{% endif %}
+        {% if site.author.googlescholar %}<a class="btn" href="{{ site.author.googlescholar }}">Google Scholar ↗</a>{% endif %}
+        {% if site.author.github %}<a class="btn" href="https://github.com/{{ site.author.github }}">GitHub ↗</a>{% endif %}
+        {% if site.author.linkedin %}<a class="btn" href="https://www.linkedin.com/in/{{ site.author.linkedin }}">LinkedIn ↗</a>{% endif %}
+      </div>
+      {% if page.status %}<p class="status"><span class="dot" aria-hidden="true"></span>{{ page.status }}</p>{% endif %}
+    </div>
+    {% if site.author.avatar %}<img class="portrait" src="{{ base_path }}/images/{{ site.author.avatar }}" alt="Portrait of {{ site.author.name }}">{% endif %}
+  </section>
+
+  {% assign news_limit = page.news_limit | default: 8 %}
+  <section class="block" id="news" aria-labelledby="h-news">
+    <div class="head"><h2 id="h-news">News</h2></div>
+    <ol class="list">
+      {% for item in site.data.news limit: news_limit %}
+      <li><time datetime="{{ item.date | date: '%Y-%m' }}">{{ item.date | date: "%b %Y" }}</time>
+        <div class="news-text">{% if item.label %}<span class="tag{% if item.kind == 'judge' %} quiet{% endif %}">{{ item.label }}</span>{% endif %}{{ item.text }}</div></li>
+      {% endfor %}
+    </ol>
+  </section>
+
+  {% assign pubs = site.publications | sort: "date" | reverse %}
+  <section class="block" id="publications" aria-labelledby="h-pubs">
+    <div class="head"><h2 id="h-pubs">Selected publications</h2><a class="more" href="{{ base_path }}/publications/">All publications ↗</a></div>
+    <ol class="list">
+      {% for post in pubs %}{% if post.selected %}
+      <li class="pub">
+        {% if post.image %}
+        <figure class="fig"><img src="{{ base_path }}{{ post.image }}" alt="{{ post.image_alt | default: 'Main figure' | escape }}" loading="lazy"></figure>
+        {% else %}
+        <figure class="fig empty"><span>Main figure<br>coming soon</span></figure>
+        {% endif %}
+        <div class="pub-body">
+          <div class="meta"><span class="tag">{{ post.venue }} {{ post.date | date: "%Y" }}</span>{% if post.note %}<span>{{ post.note }}</span>{% endif %}</div>
+          <h3>{{ post.title }}</h3>
+          <p class="authors">{% if post.authors %}{{ post.authors }}{% else %}Author list coming with the camera-ready version{% endif %}</p>
+          {% if post.tldr %}<p class="tldr">{{ post.tldr }}</p>{% endif %}
+          {% assign has_page = false %}{% if post.pageurl and post.pageurl != "" %}{% assign has_page = true %}{% endif %}
+          <div class="actions">
+            {% if post.paperurl or post.codeurl or post.bibtex or has_page %}
+              {% if post.paperurl %}<a href="{{ post.paperurl | replace: ' ', '%20' }}">PDF</a>{% endif %}
+              {% if has_page %}<a href="{{ post.pageurl }}">{{ post.pagelabel | default: "Paper page" }} ↗</a>{% endif %}
+              {% if post.codeurl %}<a href="{{ post.codeurl }}">Code ↗</a>{% endif %}
+              {% if post.bibtex %}<button type="button" class="bib">BibTeX</button><pre class="bibtex" hidden>{{ post.bibtex | escape }}</pre>{% endif %}
+            {% else %}
+              <span class="soon">Paper and code after camera-ready</span>
+            {% endif %}
+          </div>
+        </div>
+      </li>
+      {% endif %}{% endfor %}
+    </ol>
+  </section>
+
+  {% assign talks = site.talks | sort: "date" | reverse %}
+  {% assign talks_limit = page.talks_limit | default: 4 %}
+  <section class="block" id="talks" aria-labelledby="h-talks">
+    <div class="head"><h2 id="h-talks">Talks &amp; Activities</h2><a class="more" href="{{ base_path }}/talks/">All talks &amp; activities ↗</a></div>
+    <ol class="list">
+      {% for post in talks limit: talks_limit %}
+      <li><time datetime="{{ post.date | date: '%Y-%m' }}">{{ post.date | date: "%b %Y" }}</time>
+        <div class="news-text">{% if post.label %}<span class="tag{% if post.kind == 'judge' %} quiet{% endif %}">{{ post.label }}</span>{% endif %}<span class="t">{{ post.headline | default: post.title }}</span>
+          {% if post.summary %}<p class="detail">{{ post.summary }}</p>{% endif %}
+          {% if post.slidesurl or post.paperurl %}<div class="actions">{% if post.slidesurl %}<a href="{{ post.slidesurl | replace: ' ', '%20' }}">Slides</a>{% endif %}{% if post.paperurl %}<a href="{{ post.paperurl | replace: ' ', '%20' }}">Paper</a>{% endif %}</div>{% endif %}
+        </div></li>
+      {% endfor %}
+    </ol>
+  </section>
+
+  {% assign courses = site.teaching | sort: "date" | reverse | group_by: "course" %}
+  <div class="block lower">
+    <section aria-labelledby="h-teach">
+      <div class="head"><h2 id="h-teach">Teaching</h2><a class="more" href="{{ base_path }}/teaching/">Details ↗</a></div>
+      <ul class="rows">
+        {% for group in courses %}
+        {% assign first = group.items | first %}
+        <li><strong>{% if group.name != "" %}{{ group.name }}{% else %}{{ first.title }}{% endif %}</strong><span>{{ first.role }} · {{ first.school }} · {{ group.items | map: "term" | join: ", " }}</span></li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% if page.education %}
+    <section aria-labelledby="h-edu">
+      <div class="head"><h2 id="h-edu">Education</h2></div>
+      <ul class="rows">
+        {% for e in page.education %}
+        <li><strong>{{ e.degree }}</strong><span>{{ e.years }}</span></li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+  </div>
+</main>
+
+<footer class="foot">
+  <div class="foot-inner"><span>© {{ site.time | date: "%Y" }} {{ site.author.name }} · {{ site.author.location }}</span><span>Last updated {{ site.time | date: "%b %Y" }}</span></div>
+</footer>
+
+<script src="{{ base_path }}/assets/js/home.js" defer></script>
+</body>
+</html>

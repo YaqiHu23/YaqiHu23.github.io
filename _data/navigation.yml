@@ -9,6 +9,7 @@ main:
     url: /publications/
 
   - title: "Talks & Activities"
+    short: "Talks"
     url: /talks/    
 
   - title: "Teaching"

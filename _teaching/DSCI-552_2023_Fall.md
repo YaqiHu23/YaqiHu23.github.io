@@ -6,5 +6,10 @@ permalink: /teaching/USC-2023-Fall
 venue: "University of Southern California, Viterbi School of Engineering"
 date: 2023-08-26
 location: "Los Angeles, California, United States"
+# Homepage (Teaching)
+course: "DSCI 552 Machine Learning for Data Science"
+role: "Course Producer"
+school: "USC"
+term: "Fall 2023"
 ---
 Instructor: Prof. Mohammad Reza Rajati

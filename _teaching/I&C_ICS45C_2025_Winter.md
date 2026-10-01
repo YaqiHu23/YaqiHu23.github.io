@@ -6,5 +6,10 @@ permalink: /teaching/UCI-2025-winter
 venue: "University of California, Irvine"
 date: 2025-01-06
 location: "Irvine, California, United States"
+# Homepage (Teaching)
+course: "ICS 45C Programming in C/C++"
+role: "Teaching Assistant"
+school: "UC Irvine"
+term: "Winter 2025"
 ---
 Instructor: Prof. Raymond O. Klefstad

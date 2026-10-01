@@ -8,4 +8,9 @@ date: 2026-09-24
 venue: 'NeurIPS'
 # paperurl: ''   # TODO: add PDF / arXiv link
 pageurl: ''   # TODO: add paper page link (icon appears once filled)
+# Homepage (Selected publications)
+selected: true
+note: "Main track"
+tldr: "A single-cell spatial transcriptomics dataset and benchmark that keeps each cell’s tissue context."
+# image: /images/publications/smmc-22m.jpg   # TODO: main figure
 ---
