@@ -12,7 +12,7 @@ redirect_from:
 # Talks & Activities:    newest files in _talks/
 # Teaching:              files in _teaching/, grouped by `course`
 eyebrow: "Third-year Ph.D. student · University of California, Irvine"
-lead: "I build machine learning methods for pathology images and spatial omics. Recent work predicts single-cell gene expression from histology and searches the non-coding genome for causal variants."
+lead: "Yaqi Hu is a third-year Ph.D. student at the University of California, Irvine. His research focuses on computational methods for bioinformatics, particularly pathology image analysis and spatial transcriptomics. His broader interests include computational biology, machine learning and deep learning."
 advisor: "Advised by Prof. Jing Zhang"
 status: "Open to summer research internships"
 education:
