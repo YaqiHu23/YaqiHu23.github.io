@@ -4,7 +4,7 @@
   Homepage layout. Content comes from:
     _pages/about.md   eyebrow, lead, advisor, status, education
     _data/news.yml    News
-    _publications/    files with `selected: true` (image, tldr, note, codeurl, pageurl, bibtex)
+    _publications/    files with `selected: true` (image, tldr, note, codeurl, dataurl, pageurl, bibtex)
     _talks/           newest items (label, kind, headline, summary)
     _teaching/        grouped by `course` (role, school, term)
 {% endcomment %}
@@ -84,10 +84,11 @@
           {% if post.tldr %}<p class="tldr">{{ post.tldr }}</p>{% endif %}
           {% assign has_page = false %}{% if post.pageurl and post.pageurl != "" %}{% assign has_page = true %}{% endif %}
           <div class="actions">
-            {% if post.paperurl or post.codeurl or post.bibtex or has_page %}
+            {% if post.paperurl or post.codeurl or post.dataurl or post.bibtex or has_page %}
               {% if post.paperurl %}<a href="{{ post.paperurl | replace: ' ', '%20' }}">PDF</a>{% endif %}
               {% if has_page %}<a href="{{ post.pageurl }}">{{ post.pagelabel | default: "Paper page" }} ↗</a>{% endif %}
               {% if post.codeurl %}<a href="{{ post.codeurl }}">Code ↗</a>{% endif %}
+              {% if post.dataurl %}<a href="{{ post.dataurl }}">Dataset ↗</a>{% endif %}
               {% if post.bibtex %}<button type="button" class="bib">BibTeX</button><pre class="bibtex" hidden>{{ post.bibtex | escape }}</pre>{% endif %}
             {% else %}
               <span class="soon">Paper and code after camera-ready</span>
